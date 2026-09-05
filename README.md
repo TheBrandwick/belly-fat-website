@@ -5,6 +5,9 @@ Static HTML. Deploy anywhere (GitHub Pages, Vercel, Netlify, S3).
 - index.html   landing + about
 - privacy.html Privacy Policy  -> store URL: https://bellyfat.thebrandwick.com/privacy.html
 - terms.html   Terms of Use / EULA
+- delete-account.html  Account deletion steps -> store URL: https://bellyfat.thebrandwick.com/delete-account.html
+                       (Play Console: App content -> Data safety -> account deletion URL)
+                       (App Store Connect: App Information -> User Privacy Choices URL)
 - assets/      icon, screenshots, style.css
 - downloads/   drop bellyfat-latest.apk here for the direct-APK button
 
