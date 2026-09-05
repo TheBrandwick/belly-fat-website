@@ -1,11 +1,16 @@
 BellyFat marketing site
 
-Static HTML. Deploy anywhere (GitHub Pages, Vercel, Netlify, S3).
+Static HTML, served by GitHub Pages from this repo:
+https://thebrandwick.github.io/belly-fat-website/
+
+NOTE: bellyfat.thebrandwick.com has no DNS record. Until that subdomain is
+pointed here, use the github.io URLs above for the stores, and be aware that
+the applinks/intentFilters in the app's app.json still reference the dead host.
 
 - index.html   landing + about
-- privacy.html Privacy Policy  -> store URL: https://bellyfat.thebrandwick.com/privacy.html
+- privacy.html Privacy Policy  -> store URL: https://thebrandwick.github.io/belly-fat-website/privacy.html
 - terms.html   Terms of Use / EULA
-- delete-account.html  Account deletion steps -> store URL: https://bellyfat.thebrandwick.com/delete-account.html
+- delete-account.html  Account deletion steps -> store URL: https://thebrandwick.github.io/belly-fat-website/delete-account.html
                        (Play Console: App content -> Data safety -> account deletion URL)
                        (App Store Connect: App Information -> User Privacy Choices URL)
 - assets/      icon, screenshots, style.css
